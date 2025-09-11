@@ -18,7 +18,7 @@ const clerkWebHooks=async (req,res)=>{
         //Getting data from request
         const {data,type}=req.body;
         const userData={
-            _id:data._id,
+            _id:data.id,
             email:data.email_addresses[0].email_address,
             username: data.first_name +"" + data.last_name,
             image: data.image_url ,
@@ -39,14 +39,14 @@ const clerkWebHooks=async (req,res)=>{
             await User.findByIdAndDelete(data.id)
             break;
         }
-            res.json({success:"true" , message:"WebHook Recieved"})
+            
         default:
             break;
       }
-
+       return res.json({success:"true" , message:"WebHook Recieved"});
    } catch (error) {
        console.log(error.message);
-       res.json({success:false, message:error.message});
+      return   res.json({success:false, message:error.message});
 
        
    }

@@ -12,7 +12,7 @@ app.use(cors());
 
 
 //middleware-get all data via json methods
-app.use(express.json)
+app.use(express.json())
 app.use(clerkMiddleware())
 
 //API to listen to Clerk WebHooks 
