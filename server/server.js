@@ -22,3 +22,6 @@ app.get('/',(req,res)=>res.send("Api is working fine "));
 const PORT=process.env.port || 3000;
  
 app.listen(PORT,()=>console.log(`server is running on the port ${PORT}`));
+
+app.get('/favicon.ico', (req, res) => res.status(204).end());
+app.get('/next-booking.png', (req, res) => res.status(204).end());
