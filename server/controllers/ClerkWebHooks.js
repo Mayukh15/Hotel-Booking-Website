@@ -1,5 +1,5 @@
 import { json } from "express";
-import User from "../models/user.js";
+import User from "../models/UserModel.js";
 import { Webhook } from "svix";
 
 const clerkWebHooks=async (req,res)=>{
