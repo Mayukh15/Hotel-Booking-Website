@@ -1,4 +1,5 @@
 Hotel Booking Website – QuickStay (MERN Stack)
+
 QuickStay is a full-stack hotel booking web application built with the MERN stack, featuring secure user authentication via Clerk
 and seamless payments powered by Stripe. Designed for scalability and production readiness, 
 QuickStay offers a smooth booking experience with clean UI and robust backend logic.
