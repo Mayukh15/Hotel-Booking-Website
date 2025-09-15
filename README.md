@@ -29,7 +29,9 @@ QuickStay offers a smooth booking experience with clean UI and robust backend lo
 - 📄 **Webhook Handling** — Stripe + Clerk webhooks for booking confirmation and user sync
 
 🚀 Future Scope
-The QuickStay platform is designed with scalability and real-world usability in mind. While the current version showcases a polished frontend and robust authentication flow, several high-impact features are actively being developed to elevate the product to production readiness:
+
+The QuickStay platform is designed with scalability and real-world usability in mind. 
+While the current version showcases a polished frontend and robust authentication flow, several high-impact features are actively being developed to elevate the product to production readiness:
 💳** 1. Stripe Payment Gateway Integration**
 - Implement secure payment flow using Stripe Checkout and test mode for booking transactions.
 - Configure webhook listeners to validate payment success and update booking status in real-time.
